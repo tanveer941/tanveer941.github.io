@@ -1,1 +1,37 @@
-theme: jekyll-theme-slate
+# Site settings
+title: Mohammed Tanveer
+description: 'Business Card Page'
+url: 'http://mohammed.tanveer.profile'
+baseurl: ''
+profilepic: '/images/tanveer.jpg'
+cv: '/images/tanveer_cv.pdf'
+bkimage: '/images/bk1.jpg'
+google_analytics: UA-XXXXXX-X
+font_awesome: 'c6bb9bae29.js'
+
+author:
+  name: 'Mohammed Tanveer'
+  email: tanveer941@gmail.com
+  twitter_username: tanveerqaz
+#  facebook_username: joshgerdes
+  github_username:  tanveer941
+  linkedin_username:  tanveer941
+#  meetup_name: Azure-Meetup-Rostock-MV
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md']
