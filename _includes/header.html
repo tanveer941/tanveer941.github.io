@@ -4,6 +4,27 @@
 </span>
 
 <header class="panel-cover" style="background-image: url({{ site.baseurl }}{{ site.bkimage }})">
+  <style>
+  /* unvisited link */
+  /*a:link {*/
+  /*  color: red;*/
+  /*}*/
+
+  /* visited link */
+  #company:visited {
+    color: hotpink;
+  }
+
+  /* mouse over link */
+  #company:hover {
+    color: blue;
+  }
+
+  /*!* selected link *!*/
+  /*a:active {*/
+  /*  color: blue;*/
+  /*}*/
+  </style>
   <div class="panel-main">
 
     <div class="panel-main__inner panel-inverted">
@@ -13,11 +34,10 @@
           <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
         </a>
         <hr class="panel-cover__divider">
-        <p class="panel-cover__description">Working at <a href="https://ihsmarkit.com">IHS Markit</a> as software developer.<br>
+        <p class="panel-cover__description">Working at <a id="company" href="https://ihsmarkit.com">IHS Markit</a> as software developer.<br>
           Technology enthusiast.<br>
-          Into Python Programming <i class="fab fa-python fa-lg"></i>.<br>
-          Passionate about Cloud <i class="fas fa-cloud"></i>.<br>
-          Now using Amazon web services <i class="fab fa-aws fa-lg"></i>.</p>
+          Python <i class="fab fa-python fa-lg"></i>.<br>
+          Amazon web services <i class="fab fa-aws fa-lg"></i>.</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
         <div class="navigation-wrapper">
