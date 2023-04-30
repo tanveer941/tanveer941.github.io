@@ -14,20 +14,32 @@
   img: https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png
   desc: To demonstrate how to sync output files from a container to server
 
+- name: AWS EKS cluster with ELB as ingress
+  gh_user: tanveer941
+  repo: zealous-eks
+  img: https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png
+  desc: Launch a web application on AWS EKS cluster with AWS load balancer as ingress
+
+- name: Golang utility to pause ECS Fargate containers
+  gh_user: tanveer941
+  repo: ecs-pause-revive
+  img: https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png
+  desc: A command line utility to pause and revive ECS containers when not in use to save cost
+
 - name: Apigee Utility
   gh_user: tanveer941
   repo: Apigee-automation
   img: https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png
   desc: This tool facilitates the exporting of proxy configurations to local system, developing, modifying and then deploying back to the respective environments
 
-- name: Track Id Generator
-  gh_user: tanveer941
-  repo: TrackID-generator
-  img: https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png
-  desc: Feed a set of images and their respective annotations for the objects to generate track IDs for the objects already detected
+#- name: Track Id Generator
+#  gh_user: tanveer941
+#  repo: TrackID-generator
+#  img: https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png
+#  desc: Feed a set of images and their respective annotations for the objects to generate track IDs for the objects already detected
 
-- name: Subscribe to stream of data through protobuf
-  gh_user: tanveer941
-  repo: Subscribing-applications
-  img: https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png
-  desc: To read the subscribing end of the data by the Bsig and H5 parsers based on their data structure using protobuf
+#- name: Subscribe to stream of data through protobuf
+#  gh_user: tanveer941
+#  repo: Subscribing-applications
+#  img: https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png
+#  desc: To read the subscribing end of the data by the Bsig and H5 parsers based on their data structure using protobuf
