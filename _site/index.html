@@ -50,7 +50,7 @@
   <meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
   
-  <link rel="stylesheet" href="/css/main.css?1599391176284852000">
+  <link rel="stylesheet" href="/css/main.css?1697303691402790900">
   <link rel="canonical" href="http://localhost:4000/">
   <link rel="alternate" type="application/rss+xml" title="Mohammed Tanveer" href="/feed.xml">
   <script src="https://kit.fontawesome.com/c6bb9bae29.js" crossorigin="anonymous"></script>
@@ -77,6 +77,27 @@
 </span>
 
 <header class="panel-cover" style="background-image: url(/images/bk3.jpg)">
+  <style>
+  /* unvisited link */
+  /*a:link {*/
+  /*  color: red;*/
+  /*}*/
+
+  /* visited link */
+  #company:visited {
+    color: hotpink;
+  }
+
+  /* mouse over link */
+  #company:hover {
+    color: blue;
+  }
+
+  /*!* selected link *!*/
+  /*a:active {*/
+  /*  color: blue;*/
+  /*}*/
+  </style>
   <div class="panel-main">
 
     <div class="panel-main__inner panel-inverted">
@@ -86,24 +107,27 @@
           <h1 class="panel-cover__title panel-title">Mohammed Tanveer</h1>
         </a>
         <hr class="panel-cover__divider">
-        <p class="panel-cover__description">Working at <a href="https://ihsmarkit.com">IHS Markit</a> as software developer using Amazon web services <i class="fab fa-aws fa-lg"></i>.</p>
-        <hr class="panel-cover__divider panel-cover__divider--secondary">
+        <p class="panel-cover__description">Senior Software Engineer at <a id="company" href="https://autodesk.com"><font color="yellow">Autodesk</font></a> <br>
+          Technology enthusiast.<br>
+          Python <i class="fab fa-python fa-lg"></i> <br>
+          Golang <i class="fab fa-golang fa-lg"></i>
+<!--            <br>-->
 
         <div class="navigation-wrapper">
 
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
 
-            
-              <!-- Twitter -->
-              <li class="navigation__item">
-                <a href="http://twitter.com/tanveerqaz" title="@tanveerqaz on Twitter" target="_blank">
-                  <!--<i class="icon icon-social-twitter"></i>-->
-                  <i class="fab fa-twitter fa-lg"></i>
-                  <span class="label">Twitter</span>
-                </a>
-              </li>
-            
+<!--            -->
+<!--              &lt;!&ndash; Twitter &ndash;&gt;-->
+<!--              <li class="navigation__item">-->
+<!--                <a href="http://twitter.com/tanveerqaz" title="@tanveerqaz on Twitter" target="_blank">-->
+<!--                  &lt;!&ndash;<i class="icon icon-social-twitter"></i>&ndash;&gt;-->
+<!--                  <i class="fab fa-twitter fa-lg"></i>-->
+<!--                  <span class="label">Twitter</span>-->
+<!--                </a>-->
+<!--              </li>-->
+<!--            -->
 
             
 
@@ -150,12 +174,16 @@
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
               <li class="navigation__item"><a href="/images/tanveer_cv.pdf" title="Open CV" class="panel-button cv-button" target="_blank"><i class="fas fa-file fa-lg"></i>&nbsp;CV</a></li>
-              <li class="navigation__item"><a href="/blog" title="link to Blog" class="panel-button blogs-button"><i class="fas fa-link fa-lg"></i>&nbsp;Blog</a></li>
+<!--              <li class="navigation__item"><a href="/blog" title="link to Blog" class="panel-button blogs-button"><i class="fas fa-link fa-lg"></i>&nbsp;Blog</a></li>-->
+              <li class="navigation__item"><a href="https://tanveer941.blogspot.com/" title="link to Blog" class="panel-button blogs-button" target="_blank"><i class="fas fa-link fa-lg"></i>&nbsp;Blog</a></li>
               <!--<li class="navigation__item"><a href="/#" title="link to Tweets" class="panel-button"><i class="icon icon-social-twitter"></i>&nbsp;Tweets</a></li>-->
               <li class="navigation__item"><a href="/#projects" title="link to Projects" class="panel-button projects-button"><i class="fas fa-file-code fa-lg"></i>&nbsp;Projects</a></li>
             </ul>
-          </nav>
+          </nav><br>
 
+        <a href="https://www.credly.com/badges/b62a92c1-1e19-4530-badd-fa68ff55b801/embedded" target="_blank"><font color="yellow">AWS Certified Developer Associate </font></a> <i class="fab fa-aws fa-lg"></i>.</p>
+        <a href="https://www.credly.com/badges/00846609-8a21-426f-9af8-10b662011b42/embedded" target="_blank"><font color="yellow">AWS Certified DevOps Engineer - Professional </font></a> <i class="fab fa-aws fa-lg"></i>.</p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary">
         </div>
 
       </div>
@@ -177,40 +205,19 @@
 
       <li class="timeline-inverted">
         <div class="timeline-image">
-          <img class="img-me" src="https://user-images.githubusercontent.com/32843441/62822286-71724400-bb81-11e9-9c0b-59fe58dd39a8.png" alt="">
+          <img class="img-me" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" alt="">
         </div>
         <div class="timeline-panel">
           <div class="timeline-heading">
-            <h4><a href="https://github.com/tanveer941/TrackID-generator" target="_blank">Track Id Generator</a></h4>
+            <h4><a href="https://github.com/tanveer941/Oauth2.0-demo" target="_blank">OAuth2.0 authorization code</a></h4>
           </div>
           <div class="timeline-body">
-            <p>Feed a set of images and their respective annotations for the objects to generate track IDs for the objects already detected</p>
+            <p>To demonstrate OIDC authentication with authorization code grant type</p>
 
-            <div user="tanveer941" repo="TrackID-generator" class="ghbtn" style="margin-top: 10px;">
-              <a target="_blank" href="https://github.com/tanveer941/TrackID-generator/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
-              <a target="_blank" href="https://github.com/tanveer941/TrackID-generator/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
-              <a target="_blank" href="https://github.com/tanveer941/TrackID-generator/watchers"><i class="far fa-eye"></i><span class="watchers">...</span></a target="_blank" href="https://github.com/tanveer941/TrackID-generator/watchers">
-              <div style="height: 10px;"></div>
-          </div>
-        </div>
-      </li>
-    
-
-      <li class="timeline-inverted">
-        <div class="timeline-image">
-          <img class="img-me" src="https://raw.githubusercontent.com/tzuehlke/jekyll-uno-timeline/master/screenshot-overview.png" alt="">
-        </div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4><a href="https://github.com/tanveer941/miscellaneous_supporting_app" target="_blank">Bsig and H5 service</a></h4>
-          </div>
-          <div class="timeline-body">
-            <p>Contains some of the supporting applications based on Bsig and H5 parsers</p>
-
-            <div user="tanveer941" repo="miscellaneous_supporting_app" class="ghbtn" style="margin-top: 10px;">
-              <a target="_blank" href="https://github.com/tanveer941/miscellaneous_supporting_app/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
-              <a target="_blank" href="https://github.com/tanveer941/miscellaneous_supporting_app/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
-              <a target="_blank" href="https://github.com/tanveer941/miscellaneous_supporting_app/watchers"><i class="far fa-eye"></i><span class="watchers">...</span></a target="_blank" href="https://github.com/tanveer941/miscellaneous_supporting_app/watchers">
+            <div user="tanveer941" repo="Oauth2.0-demo" class="ghbtn" style="margin-top: 10px;">
+              <a target="_blank" href="https://github.com/tanveer941/Oauth2.0-demo/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/tanveer941/Oauth2.0-demo/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/tanveer941/Oauth2.0-demo/watchers"><i class="far fa-eye"></i><span class="watchers">...</span></a target="_blank" href="https://github.com/tanveer941/Oauth2.0-demo/watchers">
               <div style="height: 10px;"></div>
           </div>
         </div>
@@ -223,15 +230,78 @@
         </div>
         <div class="timeline-panel">
           <div class="timeline-heading">
-            <h4><a href="https://github.com/tanveer941/detection_mask_coco_rcnn" target="_blank">Object detection</a></h4>
+            <h4><a href="https://github.com/tanveer941/container-file-sync" target="_blank">Sync file from container to server</a></h4>
           </div>
           <div class="timeline-body">
-            <p>Mask RCNN object detection uses frozen model pre-trained on MSCOCO dataset.</p>
+            <p>To demonstrate how to sync output files from a container to server</p>
 
-            <div user="tanveer941" repo="detection_mask_coco_rcnn" class="ghbtn" style="margin-top: 10px;">
-              <a target="_blank" href="https://github.com/tanveer941/detection_mask_coco_rcnn/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
-              <a target="_blank" href="https://github.com/tanveer941/detection_mask_coco_rcnn/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
-              <a target="_blank" href="https://github.com/tanveer941/detection_mask_coco_rcnn/watchers"><i class="far fa-eye"></i><span class="watchers">...</span></a target="_blank" href="https://github.com/tanveer941/detection_mask_coco_rcnn/watchers">
+            <div user="tanveer941" repo="container-file-sync" class="ghbtn" style="margin-top: 10px;">
+              <a target="_blank" href="https://github.com/tanveer941/container-file-sync/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/tanveer941/container-file-sync/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/tanveer941/container-file-sync/watchers"><i class="far fa-eye"></i><span class="watchers">...</span></a target="_blank" href="https://github.com/tanveer941/container-file-sync/watchers">
+              <div style="height: 10px;"></div>
+          </div>
+        </div>
+      </li>
+    
+
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <img class="img-me" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" alt="">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4><a href="https://github.com/tanveer941/zealous-eks" target="_blank">AWS EKS cluster with ELB as ingress</a></h4>
+          </div>
+          <div class="timeline-body">
+            <p>Launch a web application on AWS EKS cluster with AWS load balancer as ingress</p>
+
+            <div user="tanveer941" repo="zealous-eks" class="ghbtn" style="margin-top: 10px;">
+              <a target="_blank" href="https://github.com/tanveer941/zealous-eks/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/tanveer941/zealous-eks/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/tanveer941/zealous-eks/watchers"><i class="far fa-eye"></i><span class="watchers">...</span></a target="_blank" href="https://github.com/tanveer941/zealous-eks/watchers">
+              <div style="height: 10px;"></div>
+          </div>
+        </div>
+      </li>
+    
+
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <img class="img-me" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" alt="">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4><a href="https://github.com/tanveer941/ecs-pause-revive" target="_blank">Golang utility to pause ECS Fargate containers</a></h4>
+          </div>
+          <div class="timeline-body">
+            <p>A command line utility to pause and revive ECS containers when not in use to save cost</p>
+
+            <div user="tanveer941" repo="ecs-pause-revive" class="ghbtn" style="margin-top: 10px;">
+              <a target="_blank" href="https://github.com/tanveer941/ecs-pause-revive/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/tanveer941/ecs-pause-revive/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/tanveer941/ecs-pause-revive/watchers"><i class="far fa-eye"></i><span class="watchers">...</span></a target="_blank" href="https://github.com/tanveer941/ecs-pause-revive/watchers">
+              <div style="height: 10px;"></div>
+          </div>
+        </div>
+      </li>
+    
+
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <img class="img-me" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" alt="">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4><a href="https://github.com/tanveer941/Apigee-automation" target="_blank">Apigee Utility</a></h4>
+          </div>
+          <div class="timeline-body">
+            <p>This tool facilitates the exporting of proxy configurations to local system, developing, modifying and then deploying back to the respective environments</p>
+
+            <div user="tanveer941" repo="Apigee-automation" class="ghbtn" style="margin-top: 10px;">
+              <a target="_blank" href="https://github.com/tanveer941/Apigee-automation/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/tanveer941/Apigee-automation/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/tanveer941/Apigee-automation/watchers"><i class="far fa-eye"></i><span class="watchers">...</span></a target="_blank" href="https://github.com/tanveer941/Apigee-automation/watchers">
               <div style="height: 10px;"></div>
           </div>
         </div>
@@ -255,12 +325,12 @@
       </div>
 
       <footer class="footer">
-  <span class="footer__copyright">&copy; 2020 Mohammed Tanveer. All rights reserved.</span>
+  <span class="footer__copyright">&copy; 2023 Mohammed Tanveer. All rights reserved.</span>
 </footer>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="/js/main.js?1599391176284852000"></script>
-<script type="text/javascript" src="/js/github_api.js?1599391176284852000"></script>
+<script type="text/javascript" src="/js/main.js?1697303691402790900"></script>
+<script type="text/javascript" src="/js/github_api.js?1697303691402790900"></script>
 
     </div>
   </body>
